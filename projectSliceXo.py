@@ -14,7 +14,7 @@ def create(box,pos,char):
     elif pos==7:
         return (box[:50]+char+box[51:-1])
     elif pos==8:
-        return (box[:56]+char+box[57:-1])
+        return (box[:54]+char+box[55:-1])
     elif pos==9:
         return (box[:58]+char+box[59:-1])
     else:
